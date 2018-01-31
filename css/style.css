@@ -55,6 +55,7 @@ nav a:hover {
 .profile {
   border-radius: 50%;
   border: 5px solid #fdb31d;
+  width: 30%;
 }
 
 /* description */
@@ -213,7 +214,7 @@ p span {
 }
 .description {
   text-align: left;
-  width:55%;
+  width:60%;
 }
 
 .columns {
