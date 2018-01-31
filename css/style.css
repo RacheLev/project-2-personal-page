@@ -21,11 +21,13 @@ body{
 /************** Header  ***************
 ***************************************/
 
-
+header {
+  margin-bottom: 3em;
+}
 .name {
   display: block;
   margin-top: 30px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 2.5em;
 }
 
@@ -42,10 +44,6 @@ padding: .5em 0;
 
 ul {
  list-style: none;
-}
-
-nav {
-  margin-bottom: 3em;
 }
 
 nav a:hover {
@@ -68,6 +66,7 @@ nav a:hover {
   margin-top: 60px;
   margin-bottom: 120px;
   font-family: 'Philosopher', sans-serif;
+  padding: 10px 20px;
 }
 
 /************** Main *****************
@@ -92,27 +91,25 @@ margin-bottom: 2.4em;
   font-size: 1.2em;
 }
 /* skills */
-#skills h2 {
+.my-skills {
   text-transform: uppercase;
   border: 0.1em solid #fdb31d;
   margin-top: 3em;
   margin-bottom: 1.5em;
 }
 
-.html,
-.css,
-.js,
-.jq,
-.wordp {
-  margin: 1em 0;
-  font-size: 1.2em;
-  font-weight: 500;
+#skills li span {
   background-color: #E1834F;
-  color: #fff;
-  padding: 0.3em;
+  padding: .3em 1em;
   border-radius: 5px;
-}
+  font-size: 1.2em;
+  color: #fff;
+  margin: .5em 0;
+  font-weight: 500;
+  display: inline-block;
+  width:150px;
 
+}
 /************** Footer *****************
 ***************************************/
 
@@ -163,6 +160,12 @@ p span {
 .student-name a:hover {
   color: #E1834F;
 }
+
+.footer-nav {
+    display: none;
+}
+
+
 /**************@media *****************
 ***************************************/
 
@@ -172,54 +175,131 @@ p span {
     width: 90%;
     margin: 0 auto;
   }
+
+.main-nav,
   .nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
-}
-
-.main-header li {
-  display: inline-block;
-  padding: 0 .9em;
+    justify-content: space-between;
 
 
 }
 .name {
-  margin-top: 1em;
-  margin-bottom: .5em;
+  margin-top: 0;
 }
-
-nav a:hover {
-  padding: .5em .5em;
+ .main-nav li {
+  padding: .5em 1em;
 
 }
+.main-nav li a {
+  font-size: 1.3em;
+  display: inline-block;
+
+}
+
+#top {
+  margin-top: 2em;
+}
+ nav a:hover {
+
+  font-weight: 500;
+}
+
 
 .profile{
   float: right;
   width: 25%;
+  margin-right: 4em;
   display: inline;
 }
 .description {
-  text-align: justify;
-  display: inline-block;
+  text-align: left;
   width:55%;
 }
 
-.col {
-	display: inline-block;
-	width: 49%;
-	max-height: 100%;
+.columns {
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
-.col img {
-  width: 98%;
-  margin-top: 1.5em;
+.columns div {
+    max-width: 48%;
+}
+.student-name a {
+  display: none;
 }
 
-
+.student-name {
+    display: none;
 }
 
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.footer-name{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #73695A;
+  font-size: 1.25em;
+  /* display: block; */
+  font-weight: bolder;
+  padding: .5em 0;
+
+}
+.footer-nav,
+  .nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: .01em solid #73695A;
+}
+.footer-nav li {
+ padding: .5em 1em;
+
+}
 @media screen and (min-width: 1024px) {
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+
+.name {
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.profile{
+  width: 200px;
+}
+.description {
+  text-align: left;
+  width:70%;
+}
+
+.columns div {
+    max-width: 30%;
+}
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+/* #skills li span {
+
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+/* .description {
+  text-align: left;
+  display: inline-block;
+  width:70%;
+} */
 
 }
