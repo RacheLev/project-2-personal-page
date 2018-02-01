@@ -30,7 +30,11 @@ header {
   display: block;
   margin-top: 30px;
   margin-bottom: 40px;
+<<<<<<< HEAD
   font-size: 2.2em;
+=======
+  font-size: 2em;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 }
 
 /* Navigation   */
@@ -42,7 +46,11 @@ font-size: 1.25em;
 display: block;
 font-weight: bolder;
 padding: .3em 0;
+<<<<<<< HEAD
 border: .03em solid #73695A;
+=======
+border: .08em solid #73695A;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 margin-bottom: .5em;
 }
 
@@ -51,13 +59,25 @@ ul {
 }
 
 .nav a:hover {
+<<<<<<< HEAD
   border: .03em solid #fdb31d;
+=======
+  border: .08em solid #fdb31d;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
   padding: .3em 0;
 
 }
 
 .footer-nav {
   display: none;
+<<<<<<< HEAD
+=======
+}
+/************** Main *****************
+**************************************/
+.banner {
+  background-color: #d3d1cf;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 }
 /************** Main *****************
 **************************************/
@@ -65,6 +85,7 @@ ul {
 padding-top: 2em;
   background-color: #DFDFDF;
 
+<<<<<<< HEAD
 
 }
 .profile {
@@ -74,6 +95,14 @@ padding-top: 2em;
   margin-bottom: 2em;
 
 
+=======
+.profile {
+  border-radius: 50%;
+  border: 5px solid #fdb31d;
+  width: 40%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 }
 
 .description {
@@ -82,7 +111,7 @@ padding-top: 2em;
   font-size: 1.5em;
   margin-bottom: 120px;
   font-family: 'Philosopher', sans-serif;
-  padding: 10px 20px;
+  padding: 30px 20px;
 }
 
 #protfolio  {
@@ -164,7 +193,7 @@ p span {
   justify-content: space-between;
   margin-top: 2em;
   margin-bottom: 1em;
-  border-top: .01em solid #73695A;
+  border-top: .01em solid #d3d1cf;
   padding-top: 1.5em;
 }
 
@@ -190,18 +219,32 @@ footer-nav {
   }
 
  .main-nav,
+<<<<<<< HEAD
   .nav {
+=======
+ .nav {
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
+<<<<<<< HEAD
 .name{
+=======
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 
+header {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
 }
+<<<<<<< HEAD
 header {
   margin-top: 1.5em;
 }
+=======
+
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
  .name {
   margin-top: 0;
 }
@@ -222,19 +265,35 @@ header {
   border: none;
 
 }
+.banner {
+  padding-top: 2.5em;
 
+<<<<<<< HEAD
 .profile{
   float: right;
   width: 22%;
   margin-right: 10%;
   /* display: inline; */
+=======
+}
+
+.profile{
+  float: right;
+  width: 25%;
+  margin-right: 10%;
+  /* position: relative; */
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 }
 
 .description {
   text-align: left;
   width:60%;
+  padding-left: 3em;
 }
 
+#portfolio {
+  margin-bottom: 100px;
+}
 .columns {
   display: flex;
   flex-direction: row;
@@ -251,7 +310,11 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+<<<<<<< HEAD
   border-top: .01em solid #73695A;
+=======
+  border-top: .01em solid #d3d1cf;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
   padding-top: .6em;
 
 }
@@ -267,19 +330,31 @@ font-size: 1.2em;
 display: inline;
 font-weight: bold;
 margin-bottom: 0;
+<<<<<<< HEAD
 
 }
 
 
+=======
+}
+
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 .nav2 a:hover {
 color: #73695A;
 
 }
+<<<<<<< HEAD
 .footer-name {
   display: inline;
   font-size: 1.5em;
   padding-left: 1em;
+=======
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 
+.footer-name {
+  display: inline;
+  font-size: 1.5em;
+  padding-left: 1em;
 }
 
 .footer.nav {
@@ -289,7 +364,10 @@ margin-bottom: 5em;
 
 .student-name {
 display: none;
+<<<<<<< HEAD
 
+=======
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
 }
 
 .nav2 li {
