@@ -292,8 +292,8 @@ display: none;
 
 .nav2 li {
  padding: .5em 1em;
+ }
 }
-
 @media screen and (min-width: 1024px) {
 body {
   max-width: 1024px;
