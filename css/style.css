@@ -13,7 +13,7 @@ max-width: 100%;
 body{
   font-family: 'Maven Pro', sans-serif;
   line-height: 1.5;
-  background-color: #F9F5EF;
+  background-color: #f2f2f2;
   margin: 0 15px;
   color: #73695A;
   text-align: center;
@@ -30,6 +30,7 @@ header {
   display: block;
   margin-top: 30px;
   margin-bottom: 40px;
+  font-size: 2.2em;
   font-size: 2em;
 }
 
@@ -51,9 +52,9 @@ ul {
 }
 
 .nav a:hover {
+  border: .03em solid #fdb31d;
   border: .08em solid #fdb31d;
   padding: .3em 0;
-
 }
 
 .footer-nav {
@@ -63,6 +64,20 @@ ul {
 **************************************/
 .banner {
   background-color: #d3d1cf;
+>>>>>>> ee0621813bafdcd429dea4bc13a3ff8df4c55207
+}
+/************** Main *****************
+**************************************/
+.banner {
+padding-top: 2em;
+  background-color: #DFDFDF;
+}
+
+.profile {
+  border-radius: 50%;
+  border: 5px solid #fdb31d;
+  width: 30%;
+  margin-bottom: 2em;
 }
 
 .profile {
@@ -104,12 +119,12 @@ margin-bottom: 2.4em;
 .my-skills {
   text-transform: uppercase;
   border: 0.1em solid #fdb31d;
-  margin-top: 6em;
+  margin-top: 3em;
   margin-bottom: 1.5em;
 }
 
-#skills li span {
-  background-color: #E1834F;
+.skill-list li span {
+  background-color: #fdb31d;
   padding: .3em 1em;
   border-radius: 5px;
   font-size: 1.2em;
@@ -124,8 +139,8 @@ margin-bottom: 2.4em;
 /* contact */
 #contact {
 text-transform: uppercase;
-margin-top: 6em;
-margin-bottom: 1.5em;
+margin-top: 3em;
+margin-bottom: 1.8em;
 color: #494545;
 border: 0.1em solid #fdb31d;
 }
@@ -188,7 +203,7 @@ footer-nav {
   }
 
  .main-nav,
- .nav {
+  .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -197,6 +212,10 @@ footer-nav {
 header {
   margin-top: .5em;
   margin-bottom: 1.5em;
+}
+
+header {
+  margin-top: 1.5em;
 }
 
  .name {
@@ -224,8 +243,12 @@ header {
 
 .profile{
   float: right;
-  width: 25%;
+  width: 22%;
   margin-right: 10%;
+<<<<<<< HEAD
+=======
+  /* display: inline; */
+>>>>>>> 284ce18fa63487b672f1a6f412d58818ca016ae4
 }
 
 .description {
@@ -254,7 +277,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: .01em solid #d3d1cf;
+  border-top: .01em solid #73695A;
   padding-top: .6em;
 }
 
@@ -265,7 +288,7 @@ header {
 .nav2 li a{
 text-transform: uppercase;
 text-decoration: none;
-color: #fdb31d;
+color: #E1834F;
 font-size: 1.2em;
 display: inline;
 font-weight: bold;
@@ -274,6 +297,12 @@ margin-bottom: 0;
 
 .nav2 a:hover {
 color: #73695A;
+}
+
+.footer-name {
+  display: inline;
+  font-size: 1.5em;
+  padding-left: 1em;
 }
 
 .footer-name {
@@ -329,7 +358,7 @@ body {
   max-width: 30%;
 }
 
-#skills {
+.skill-list {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
