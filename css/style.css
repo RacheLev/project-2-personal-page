@@ -60,24 +60,12 @@ ul {
 .footer-nav {
   display: none;
 }
-/************** Main *****************
-**************************************/
-.banner {
-  background-color: #d3d1cf;
-}
 
 /************** Main *****************
 **************************************/
 .banner {
-padding-top: 2em;
+  padding-top: 2em;
   background-color: #DFDFDF;
-}
-
-.profile {
-  border-radius: 50%;
-  border: 5px solid #fdb31d;
-  width: 30%;
-  margin-bottom: 2em;
 }
 
 .profile {
@@ -134,6 +122,7 @@ margin-bottom: 2.4em;
   display: inline-block;
   width:150px;
 }
+
 /************** Footer ****************
 ***************************************/
 /* contact */
@@ -212,10 +201,6 @@ footer-nav {
 header {
   margin-top: .5em;
   margin-bottom: 1.5em;
-}
-
-header {
-  margin-top: 1.5em;
 }
 
  .name {
@@ -299,17 +284,6 @@ color: #73695A;
   display: inline;
   font-size: 1.5em;
   padding-left: 1em;
-}
-
-.footer-name {
-  display: inline;
-  font-size: 1.5em;
-  padding-left: 1em;
-}
-
-.footer.nav {
-
-margin-bottom: 5em;
 }
 
 .student-name {
