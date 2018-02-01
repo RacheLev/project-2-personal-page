@@ -13,7 +13,7 @@ max-width: 100%;
 body{
   font-family: 'Maven Pro', sans-serif;
   line-height: 1.5;
-  background-color: #F9F5EF;
+  background-color: #f2f2f2;
   margin: 0 15px;
   color: #73695A;
   text-align: center;
@@ -120,11 +120,11 @@ margin-bottom: 2.4em;
 .my-skills {
   text-transform: uppercase;
   border: 0.1em solid #fdb31d;
-  margin-top: 6em;
+  margin-top: 3em;
   margin-bottom: 1.5em;
 }
 
-#skills li span {
+.skill-list li span {
   background-color: #E1834F;
   padding: .3em 1em;
   border-radius: 5px;
@@ -139,8 +139,8 @@ margin-bottom: 2.4em;
 ***************************************/
 #contact {
 text-transform: uppercase;
-margin-top: 6em;
-margin-bottom: 1.5em;
+margin-top: 3em;
+margin-bottom: 1.8em;
 color: #494545;
 border: 0.1em solid #fdb31d;
 }
