@@ -43,7 +43,6 @@ font-size: 1.25em;
 display: block;
 font-weight: bolder;
 padding: .3em 0;
-border: .03em solid #73695A;
 border: .08em solid #73695A;
 margin-bottom: .5em;
 }
@@ -125,7 +124,7 @@ margin-bottom: 2.4em;
 }
 
 .skill-list li span {
-  background-color: #E1834F;
+  background-color: #fdb31d;
   padding: .3em 1em;
   border-radius: 5px;
   font-size: 1.2em;
@@ -249,13 +248,6 @@ header {
   /* display: inline; */
 }
 
-.profile{
-  float: right;
-  width: 25%;
-  margin-right: 10%;
-  /* position: relative; */
-}
-
 .description {
   text-align: left;
   width:60%;
@@ -265,6 +257,7 @@ header {
 #portfolio {
   margin-bottom: 100px;
 }
+
 .columns {
   display: flex;
   flex-direction: row;
@@ -282,7 +275,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   border-top: .01em solid #73695A;
-  border-top: .01em solid #d3d1cf;
   padding-top: .6em;
 }
 .nav2 {
@@ -292,7 +284,7 @@ header {
 .nav2 li a{
 text-transform: uppercase;
 text-decoration: none;
-color: #fdb31d;
+color: #E1834F;
 font-size: 1.2em;
 display: inline;
 font-weight: bold;
@@ -364,7 +356,7 @@ body {
   max-width: 30%;
 }
 
-#skills {
+.skill-list {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
