@@ -245,10 +245,6 @@ header {
   float: right;
   width: 22%;
   margin-right: 10%;
-<<<<<<< HEAD
-=======
-  /* display: inline; */
->>>>>>> 284ce18fa63487b672f1a6f412d58818ca016ae4
 }
 
 .description {
@@ -277,7 +273,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: .01em solid #73695A;
+  border-top: .01em solid #d3d1cf;
   padding-top: .6em;
 }
 
